@@ -1,0 +1,20 @@
+Positive Test Cases:
+
+Submit integer value at lower boundary [ 0 ]
+Submit integer value at lower boundary +1 [ 1 ]
+Submit integer value at the upper boundary -1 [ 169 ]
+Submit integer value at the upper boundary [ 170 ]
+
+Negative Test Cases:
+
+Submit integer value at upper boundary +1 [ 171 ]
+Submit integer value with leading 0 [ 01 ]
+Submit integer value with leading plus sign [+] [ +1 ]
+Submit integer value with the leading minus sign [-] [ -1 ]
+Submit integer value with leading space [ 1 1 ]
+Submit a number with a decimal point [ 1.0 ]
+Submit a number with the letter ‘e’ in it [ 1e+3 ]
+Submit alpha character(s) [ abc ]
+Submit special character(s) [ !@#$^ ]
+Submit with only space [  ]
+Submit with nothing entered []
